@@ -1,5 +1,7 @@
 /**
- * Created by mariusvetrici on 02/02/15.
+ * author: Marius Vetrici
+ * website: www.vetrici.com
+ * date: 02/02/15
  */
 $(document).ready(function() {
     $('.hint').hover(function(mouseEvent){
