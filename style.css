@@ -1,0 +1,36 @@
+.tooltip {
+    display:none;
+    position:absolute;
+    border:1px solid lightgray;
+    background-color:rgba(255,255,255,0.95);
+    border-radius:5px;
+    padding:10px;
+    color:#454545;
+    font-size:12px Arial;
+    width: 150px;
+}
+
+.top, .left, .right, .bottom {
+    position: relative;
+    border: solid 1px red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.top {
+    top: 20px;
+}
+
+.bottom {
+    bottom: 20px;
+}
+
+.left {
+    left: 20px;
+}
+
+.right {
+    right: 20px;
+}
+
